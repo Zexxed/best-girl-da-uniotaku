@@ -10,11 +10,11 @@ Baseado no template Vue 3 + Vite, logo `<script setup>` é suportado e recomenda
 
 1. Rode um dos comandos abaixo para simular a API:
 
-    - `npx micro mock-api/preliminary.cjs`: votação preliminar
-    - `npx micro mock-api/tie-break.cjs`: votação de desempate
-    - `npx micro mock-api/voting.cjs`: votação normal
-    - `npx micro mock-api/finished.cjs`: votação encerrada
-    - `npx micro mock-api/invalid-login.cjs`: o usuário está usando um token inválido ou que expirou
+    - `npm run mock-api preliminary`: votação preliminar
+    - `npm run mock-api tie-break`: votação de desempate
+    - `npm run mock-api voting`: votação normal
+    - `npm run mock-api finished`: votação encerrada
+    - `npm run mock-api invalid-login`: o usuário está usando um token inválido ou que expirou
 
 2. Ao mesmo tempo rode `npm run dev`
 
