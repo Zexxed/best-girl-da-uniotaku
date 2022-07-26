@@ -2,7 +2,9 @@ export default req => {
   if (req.method === 'OPTIONS') return ''
 
   if (req.method === 'POST') {
-    return {result: 'vote-accepted'}
+    return {
+      result: 'vote-accepted'
+    }
   }
 
   return {
