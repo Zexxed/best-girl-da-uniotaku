@@ -1,6 +1,6 @@
 <template>
   <div>
-    TODO - Voting.vue
+    <h1>Votação</h1>
     <pre>{{ serverData }}</pre>
   </div>
 </template>

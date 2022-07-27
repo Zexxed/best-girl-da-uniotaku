@@ -1,6 +1,6 @@
 <template>
   <div>
-    TODO - TieBreaker.vue
+    <h1>Desempate</h1>
     <pre>{{ serverData }}</pre>
   </div>
 </template>
