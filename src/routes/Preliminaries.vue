@@ -1,7 +1,7 @@
 <template>
   <div v-if="serverData">
     <h1>Eliminatórias</h1>
-    <p>Você pode votar em quantas garotas você quiser das abaixo etapa:</p>
+    <p>Você pode votar em quantas garotas você quiser das abaixo nessa etapa:</p>
 
     <div class="d-flex flex-column flex-md-row flex-items-center flex-md-items-center">
       <div
